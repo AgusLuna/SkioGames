@@ -1,158 +1,212 @@
+Perfecto. A continuación te muestro el archivo HTML **completo**, con las nuevas **Políticas de Privacidad** ya integradas dentro de la misma estructura del sitio original de **Skio Games**. Simplemente reemplazá tu contenido anterior por este.
+
+---
+
+### ✅ HTML Final (`index.html`)
+
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skio Games</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #fff;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skio Games</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #fff;
+    }
 
-        header {
-            background-color: #1f1f1f;
-            padding: 20px;
-            text-align: center;
-        }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
 
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        nav a:hover {
-            color: #00ffcc;
-        }
+    nav a:hover {
+      color: #00ffcc;
+    }
 
-        section {
-            padding: 60px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
 
-        footer {
-            background-color: #1f1f1f;
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-            color: #aaa;
-        }
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
 
-        h1, h2 {
-            color: #00ffcc;
-        }
+    h1, h2 {
+      color: #00ffcc;
+    }
 
-        .game {
-            background-color: #222;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
+    .game {
+      background-color: #222;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
 
-        .game h3 {
-            margin-top: 0;
-        }
+    .game h3 {
+      margin-top: 0;
+    }
 
-        a.privacy-link {
-            color: #aaa;
-            font-size: 13px;
-            display: block;
-            margin-top: 10px;
-        }
+    a.privacy-link {
+      color: #aaa;
+      font-size: 13px;
+      display: block;
+      margin-top: 10px;
+    }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            nav {
-                display: flex;
-                flex-direction: column;
-            }
+    ul {
+      padding-left: 20px;
+    }
 
-            nav a {
-                margin: 10px 0;
-            }
-        }
-    </style>
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+
+    .policy-section h3 {
+      color: #00ffcc;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Skio Games</h1>
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#sobre-nosotros">Sobre Nosotros</a>
-            <a href="#juegos">Juegos</a>
-            <a href="#noticias">Noticias</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+  <header>
+    <h1>Skio Games</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-nosotros">Sobre Nosotros</a>
+      <a href="#juegos">Juegos</a>
+      <a href="#noticias">Noticias</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-    <section id="inicio">
-        <h2>Bienvenido a Skio Games</h2>
-        <p>Skio Games es una empresa dedicada a la creación de videojuegos innovadores que inspiran, entretienen y conectan a millones de jugadores alrededor del mundo.</p>
-    </section>
+  <section id="inicio">
+    <h2>Bienvenido a Skio Games</h2>
+    <p>Skio Games es una empresa dedicada a la creación de videojuegos innovadores que inspiran, entretienen y conectan a millones de jugadores alrededor del mundo.</p>
+  </section>
 
-    <section id="sobre-nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Fundada en 2022, Skio Games combina creatividad, tecnología y pasión para desarrollar experiencias únicas. Nuestro equipo está compuesto por desarrolladores, artistas y diseñadores comprometidos con la excelencia.</p>
-    </section>
+  <section id="sobre-nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Fundada en 2022, Skio Games combina creatividad, tecnología y pasión para desarrollar experiencias únicas. Nuestro equipo está compuesto por desarrolladores, artistas y diseñadores comprometidos con la excelencia.</p>
+  </section>
 
-    <section id="juegos">
-        <h2>Nuestros Juegos</h2>
-        <div class="game">
-            <h3>Cyber Skater</h3>
-            <p>Un juego de ritmo y acción en un mundo retro-futurista donde deberás esquivar obstáculos al ritmo de la música.</p>
-        </div>
-        <div class="game">
-            <h3>Echo Realms</h3>
-            <p>Un RPG multijugador donde exploras reinos mágicos, desbloqueas habilidades y enfrentas criaturas legendarias.</p>
-        </div>
-        <div class="game">
-            <h3>Bit Racer</h3>
-            <p>Compite en carreras digitales a toda velocidad con gráficos pixelados al estilo arcade de los 80s.</p>
-        </div>
-    </section>
+  <section id="juegos">
+    <h2>Nuestros Juegos</h2>
+    <div class="game">
+      <h3>Cyber Skater</h3>
+      <p>Un juego de ritmo y acción en un mundo retro-futurista donde deberás esquivar obstáculos al ritmo de la música.</p>
+    </div>
+    <div class="game">
+      <h3>Echo Realms</h3>
+      <p>Un RPG multijugador donde exploras reinos mágicos, desbloqueas habilidades y enfrentas criaturas legendarias.</p>
+    </div>
+    <div class="game">
+      <h3>Bit Racer</h3>
+      <p>Compite en carreras digitales a toda velocidad con gráficos pixelados al estilo arcade de los 80s.</p>
+    </div>
+  </section>
 
-    <section id="noticias">
-        <h2>Últimas Noticias</h2>
-        <ul>
-            <li><strong>Agosto 2025:</strong> ¡Cyber Skater lanza su primer torneo online con premios exclusivos!</li>
-            <li><strong>Julio 2025:</strong> Echo Realms alcanza 1 millón de jugadores activos mensuales.</li>
-            <li><strong>Junio 2025:</strong> Bit Racer recibe una actualización con nuevos circuitos y modos de juego.</li>
-        </ul>
-    </section>
+  <section id="noticias">
+    <h2>Últimas Noticias</h2>
+    <ul>
+      <li><strong>Agosto 2025:</strong> ¡Cyber Skater lanza su primer torneo online con premios exclusivos!</li>
+      <li><strong>Julio 2025:</strong> Echo Realms alcanza 1 millón de jugadores activos mensuales.</li>
+      <li><strong>Junio 2025:</strong> Bit Racer recibe una actualización con nuevos circuitos y modos de juego.</li>
+    </ul>
+  </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>¿Tenés preguntas, ideas o querés trabajar con nosotros? ¡Escribinos!</p>
-        <p>Email: <a href="mailto:contacto@skiogames.com" style="color:#00ffcc;">contacto@skiogames.com</a></p>
-        <p>Redes Sociales:
-            <a href="#" style="color:#00ffcc;">Twitter</a> |
-            <a href="#" style="color:#00ffcc;">Instagram</a> |
-            <a href="#" style="color:#00ffcc;">Discord</a>
-        </p>
-        <a href="#privacidad" class="privacy-link">Ver Políticas de Privacidad</a>
-    </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tenés preguntas, ideas o querés trabajar con nosotros? ¡Escribinos!</p>
+    <p>Email: <a href="mailto:contacto@skiogames.com" style="color:#00ffcc;">contacto@skiogames.com</a></p>
+    <p>Redes Sociales:
+      <a href="#" style="color:#00ffcc;">Twitter</a> |
+      <a href="#" style="color:#00ffcc;">Instagram</a> |
+      <a href="#" style="color:#00ffcc;">Discord</a>
+    </p>
+    <a href="#privacidad" class="privacy-link">Ver Políticas de Privacidad</a>
+  </section>
 
-    <section id="privacidad">
-        <h2>Políticas de Privacidad</h2>
-        <p>En Skio Games nos tomamos muy en serio tu privacidad. Toda la información personal que recopilamos es utilizada únicamente para mejorar tu experiencia como usuario.</p>
-        <ul>
-            <li>No compartimos tus datos con terceros sin tu consentimiento.</li>
-            <li>Utilizamos cookies solo para estadísticas internas y funcionamiento del sitio.</li>
-            <li>Podés solicitar la eliminación de tus datos en cualquier momento escribiéndonos a <a href="mailto:privacidad@skiogames.com" style="color:#00ffcc;">privacidad@skiogames.com</a>.</li>
-        </ul>
-        <p>Al utilizar nuestros servicios, aceptás estas políticas.</p>
-    </section>
+  <section id="privacidad" class="policy-section">
+    <h2>Políticas de Privacidad</h2>
+    <p><strong>Última actualización: 21 de agosto de 2025</strong></p>
 
-    <footer>
-        &copy; 2025 Skio Games. Todos los derechos reservados.
-    </footer>
+    <p>En <strong>Skio Games</strong>, la privacidad de nuestros jugadores es una prioridad. Esta política explica cómo recopilamos, usamos, almacenamos y protegemos tu información personal, especialmente cuando conectás cuentas de plataformas externas como Steam, Epic Games, EA App, Ubisoft Connect, entre otras.</p>
 
-</body>
-</html>
+    <h3>1. 📥 Información que recopilamos</h3>
+    <ul>
+      <li>Nombre de usuario o ID de cuenta.</li>
+      <li>Correo electrónico asociado a tus cuentas externas.</li>
+      <li>Lista de amigos (cuando la plataforma lo permita).</li>
+      <li>Juegos que poseés y estadísticas públicas (como logros o tiempo jugado).</li>
+      <li>Tokens de acceso temporales para autenticación segura.</li>
+    </ul>
+
+    <h3>2. 🔗 ¿Por qué pedimos acceso a tus cuentas?</h3>
+    <ul>
+      <li>Para vincular tus juegos y perfiles de forma automática.</li>
+      <li>Ofrecer experiencias personalizadas y recompensas exclusivas.</li>
+      <li>Facilitar el inicio de sesión sin crear una cuenta nueva.</li>
+      <li>Permitir funciones multijugador cross-platform.</li>
+    </ul>
+
+    <h3>3. 🛡️ Seguridad de tu información</h3>
+    <ul>
+      <li>Usamos cifrado SSL en todas las conexiones.</li>
+      <li>No almacenamos contraseñas de plataformas externas.</li>
+      <li>Guardamos tu información en servidores seguros.</li>
+    </ul>
+
+    <h3>4. 🚫 No vendemos tu información</h3>
+    <p>Jamás vendemos ni compartimos tus datos con terceros para fines comerciales. Solo usamos tu información para mejorar tu experiencia dentro del ecosistema de Skio Games.</p>
+
+    <h3>5. 📤 Tus derechos</h3>
+    <ul>
+      <li>Podés desvincular cualquier cuenta en cualquier momento.</li>
+      <li>Solicitar la eliminación de todos tus datos enviando un mail a <a href="mailto:privacidad@skiogames.com" style="color:#00ffcc;">privacidad@skiogames.com</a>.</li>
+      <li>Consultar y modificar tu información desde tu perfil.</li>
+    </ul>
+
+    <h3>6. 🧾 Cookies y analítica</h3>
+    <p>Usamos cookies para mejorar tu experiencia y entender cómo usás nuestro sitio. Podés desactivarlas en tu navegador, aunque algunas funciones podrían no funcionar correctamente.</p>
+
+    <h3>7. 👥 Servicios de terceros</h3>
+    <p>Cuando vinculás tu cuenta con servicios como Steam, Epic o EA, también aceptás sus políticas de privacidad. Te recomendamos revisarlas:</p>
+    <ul>
+      <li><a href="https://store.steampowered.com/privacy_agreement/" target="_blank" style="color:#00ffcc;">Política de Steam</a></li>
+      <li><a href="https://www.epicgames.com/site/en-US/privacypolicy" target="_blank" style="color:#00ffcc;">Política de Epic Games</a></li>
+      <li><a href="https://www.ea.com/legal/privacy-policy" target="_blank" style="color:#00ffcc;">Política de EA</a></li>
+      <li><a href="https://www.ubisoft.com/help/privacy-policy" target="_blank" style="color:#00ffcc;">Política de Ubisoft</a></li>
+    </ul
+```
